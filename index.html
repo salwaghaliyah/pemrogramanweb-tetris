@@ -1,0 +1,39 @@
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="resources/logo.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="left-div">
+            <img src="resources/logo.png" id="logo">
+            <div class="d_score">
+                <img src="resources/ghost.png" id="ghost" />
+                <p id="labelscore">Score</p>
+                <div id="score-div">
+                    <label id="score"></label>
+                </div>
+            </div>
+            <div class="d_lines">
+                <img src="resources/ghost.png" id="ghost" />
+                <p id="labelscore">Lines</p>
+                <div id="lines-div">
+                    <label id="lines"></label>
+                </div>
+            </div>
+        </div>
+        <div id="game-container">
+            <img src="resources/background.png" id="background" />
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
